@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.container {
+    margin-top: 15rem;
+}
+
+.to-do-input {
+    font-size: 23px;
+    outline: none;
+}
+
+.to-do-input:focus {
+    border-color: #3a47d5 !important;
+}
+
+.btn-add, .btn-trash {
+    background-color: #3a47d5;
+}
+
+.to-do {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
